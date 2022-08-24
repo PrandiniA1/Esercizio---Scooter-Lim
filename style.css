@@ -1,0 +1,82 @@
+*{
+  margin: auto;
+  box-sizing: content-box;
+  font-family:'Noto+Sans+Mono', sans-serif;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.contenitore{
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  margin-top: 20px;
+}
+
+head, nav, main{
+  opacity: 1;
+  width: 75%;
+}
+
+header, nav{
+  text-align: center;
+}
+
+nav{
+  padding: 10px;
+  background-color: #48fb47;
+}
+
+.logo{
+  width: 20%;
+  height: auto;
+  padding-top: 10px
+}
+
+.logo-text{
+  color: #48fb47;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.monopattino{
+  color: white;
+  padding-top: 23px;
+}
+
+.monopattino div{
+  display: inline-block;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.nomemonopattino:before{
+  content: "\25A0";
+}
+
+.via:before{
+  content: "\21A6";
+}
+
+#Gino{
+  background-color: #f4a460;
+  width: 40%;
+  padding: 10px;
+}
+
+#Mike{
+  background-color: #32cd32;
+  width: 75%;
+  padding: 10px;
+}
+
+#Fede{
+  background-color: #ff4500;
+  width: 15%;
+  padding: 10px;
+}
